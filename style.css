@@ -14,3 +14,21 @@
     flex-direction: column;
   }
   
+
+  .residence-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+
+
+@media (max-width: 768px) {
+  .hero-text {
+    left: 5%;
+    right: 5%;
+    text-align: center;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+}
