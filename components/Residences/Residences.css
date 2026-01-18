@@ -47,12 +47,10 @@
 }
 
 
-.residence-info h3 {
-  font-size: 1.6rem;
-  margin-bottom: 0.8rem;
-}
+
 
 .residence-info p {
+  font-size: 1.5rem;
   color: #555;
   line-height: 1.6;
 }
@@ -72,5 +70,12 @@
 
   .residence-image img {
     height: auto; 
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .residence-card {
+    gap: 15rem; 
   }
 }
