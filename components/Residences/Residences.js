@@ -21,7 +21,7 @@ const Residences = () => {
   </div>
   <div class="residence-info">
    
-    <p>Diseño contemporáneo con terrazas integradas y máxima luminosidad.</p>
+    <p>Líneas minimalistas, tecnología avanzada y eficiencia energética.</p>
   </div>
 </div>
 
@@ -32,7 +32,7 @@ const Residences = () => {
   </div>
   <div class="residence-info">
     
-    <p>Líneas minimalistas, tecnología avanzada y eficiencia energética.</p>
+    <p>Diseño contemporáneo con terrazas integradas y máxima luminosidad.
   </div>
 </div>
   `;
