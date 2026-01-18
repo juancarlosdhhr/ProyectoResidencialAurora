@@ -3,7 +3,7 @@ import './Header.css';
 const Header = () => {
   document.getElementById('header').innerHTML = `
     <nav class="nav">
-      <h1 class="logo">Residencial Aurora</h1>
+      <img src="assets/logo.jpg" alt="Logo Luxury Home" class="logo">
       <ul class="nav-links">
         <li><a href="#residences">Viviendas</a></li>
         <li><a href="#amenities">Servicios</a></li>

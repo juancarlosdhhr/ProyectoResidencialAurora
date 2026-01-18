@@ -1,0 +1,31 @@
+.footer {
+  padding: 3rem 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: white;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+.social a {
+  margin-left: 1rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #c9a96a;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+ 

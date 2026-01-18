@@ -35,3 +35,14 @@
 .nav-links a:hover::after {
   width: 100%;
 }
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
