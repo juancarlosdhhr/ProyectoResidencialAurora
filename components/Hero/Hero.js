@@ -1,4 +1,4 @@
-import '../styles/hero.css';
+import './Hero.css';
 
 const Hero = () => {
   document.getElementById('hero').innerHTML = `
