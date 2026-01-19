@@ -7,10 +7,21 @@ const Hero = () => {
       <div class="hero-text">
         <h2>Viviendas exclusivas</h2>
         <p>Diseño contemporáneo en una ubicación privilegiada</p>
-        <button>Solicitar información</button>
+        <button id="infoBtn">Solicitar información</button>
       </div>
     </div>
   `;
+
+  const infoBtn = document.getElementById('infoBtn');
+
+  infoBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const contactoModal = document.querySelector('.contacto-modal');
+    if (contactoModal) {
+      contactoModal.classList.add('active');
+    }
+  });
 };
 
 export default Hero;
+
