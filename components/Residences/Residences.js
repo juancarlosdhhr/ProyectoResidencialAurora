@@ -19,7 +19,7 @@ const Residences = () => {
       
      <div class="residence-card">
   <div class="residence-image">
-    <img src="assets/residence2.jpg" alt="Vivienda tipo B>
+    <img src="assets/residence2.jpg" alt="Vivienda tipo B">
   </div>
   <div class="residence-info">
    
