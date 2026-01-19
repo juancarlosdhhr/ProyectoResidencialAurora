@@ -5,7 +5,7 @@ Proyecto web de una promoción inmobiliaria de lujo.
 ## Tecnologías usadas
 
 - HTML5 semántico
-- CSS3 + animaciones (`@keyframes`, `transition`)
+- CSS3 + animaciones 
 - JS Vanilla moderno (módulos ES6)
 - Vite como bundler
 - Google Fonts: Playfair Display + Inter
@@ -16,14 +16,15 @@ Proyecto web de una promoción inmobiliaria de lujo.
 ## Estructura del proyecto
 
 PROYECTORESIDENCIAL/
-├── assets/                  
-│   ├── favicon.png
-│   ├── hero.jpg
-│   ├── logo.jpg
-│   ├── residence1.jpg
-│   ├── residence2.jpg
-│   └── residence3.jpg
-├── components/              
+├── public/                  # Archivos estáticos servidos directamente
+│   └── assets/              # Imágenes y recursos visuales
+│       ├── favicon.png
+│       ├── hero.jpg
+│       ├── logo.jpg
+│       ├── residence1.jpg
+│       ├── residence2.jpg
+│       └── residence3.jpg
+├── components/              # Componentes modulares de la interfaz
 │   ├── Amenities/
 │   │   ├── Amenities.css
 │   │   └── Amenities.js
@@ -45,11 +46,11 @@ PROYECTORESIDENCIAL/
 │   └── Residences/
 │       ├── Residences.css
 │       └── Residences.js
-├── node_modules/           
-├── public/                 
-├── .gitignore              
-├── index.html               
-├── main.js                
-├── package-lock.json
-├── package.json             
-└── style.css
+├── node_modules/            # Dependencias instaladas (Vite, etc.)
+├── .gitignore               # Archivos excluidos de Git
+├── index.html               # Punto de entrada principal HTML
+├── main.js                  # Orquestador: importa y ejecuta los componentes
+├── package.json             # Configuración del proyecto y scripts
+├── package-lock.json        # Registro detallado de dependencias
+├── README.md                # Documentación del proyecto
+└── style.css                # Estilos globales de la aplicación
