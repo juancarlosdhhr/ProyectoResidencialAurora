@@ -2,12 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 5vw;
+  padding: 1.5rem 5vw;
+  position: relative;
+  background-color: #fff;
+  z-index: 1000;
 }
 
 .logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
+  height: 60px;
+  width: auto;
 }
 
 .nav-links {
@@ -37,13 +40,39 @@
   width: 100%;
 }
 
-.logo {
-  height: 100px;
-  width: auto;
+/* Botón hamburguesa (oculto en desktop) */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: none;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+    text-align: right;
+    padding: 0 1rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
