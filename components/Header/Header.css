@@ -40,14 +40,14 @@
   width: 100%;
 }
 
-/* Botón hamburguesa (oculto en desktop) */
+
 .menu-toggle {
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
