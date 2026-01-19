@@ -9,7 +9,7 @@ const Residences = () => {
 
       <div class="residence-card">
   <div class="residence-image">
-    <img src="assets/residence1.jpg" alt="Vivienda tipo A">
+    <img src="public\assets\residence1.jpg
   </div>
   <div class="residence-info">
     
@@ -19,7 +19,7 @@ const Residences = () => {
       
      <div class="residence-card">
   <div class="residence-image">
-    <img src="assets/residence2.jpg" alt="Vivienda tipo B>
+    <img src="assets/residence2.jpg" alt="Vivienda tipo B">
   </div>
   <div class="residence-info">
    
