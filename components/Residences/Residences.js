@@ -9,7 +9,7 @@ const Residences = () => {
 
       <div class="residence-card">
   <div class="residence-image">
-    <img src="assets/residence1.jpg" alt="Vivienda tipo A">
+    <img src="assets/residence1.jpg" alt="Modelo 1
   </div>
   <div class="residence-info">
     
@@ -19,7 +19,7 @@ const Residences = () => {
       
      <div class="residence-card">
   <div class="residence-image">
-    <img src="assets/residence2.jpg" alt="Vivienda tipo A">
+    <img src="assets/residence2.jpg" alt="Modelo 2
   </div>
   <div class="residence-info">
    
@@ -30,7 +30,7 @@ const Residences = () => {
 
       <div class="residence-card">
   <div class="residence-image">
-    <img src="assets/residence3.jpg" alt="Vivienda tipo A">
+    <img src="assets/residence3.jpg" alt="Modelo 3
   </div>
   <div class="residence-info">
     
