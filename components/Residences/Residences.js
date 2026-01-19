@@ -1,5 +1,9 @@
 import './Residences.css';
 
+import res1 from './assets/residence1.jpg';
+import res2 from './assets/residence2.jpg';
+import res3 from './assets/residence3.jpg';
+
 const Residences = () => {
   document.getElementById('residences').innerHTML = `
     <section class="residences">
